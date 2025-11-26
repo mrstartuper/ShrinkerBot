@@ -1,11 +1,1 @@
-{
-  "build": {
-    "builder": "paketo",
-    "buildCommands": [
-      "apt-get update && apt-get install -y ffmpeg",
-      "pip install --upgrade pip",
-      "pip install -r requirements.txt"
-    ]
-  },
-  "start": "python bot_premium.py"
-}
+
